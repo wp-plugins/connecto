@@ -64,10 +64,8 @@ left bar.
 
 = How do I get started ? =
 1. Register with Connecto.
-2. From your Connecto Profile page, generate API key and paste it in your
-wordpress admin
-3. From your wordpress admin or from the Connecto admin, you can launch
-notification bars, lead form bars etc.
+2. From your Connecto Profile page, generate API key and paste it in your wordpress admin
+3. From your wordpress admin or from the Connecto admin, you can launch notification bars, lead form bars etc.
 
 
 = Is it free? =
@@ -81,8 +79,7 @@ number of pageviews.
 2. Bottom bar with email subscription form.
 3. Register at www.connecto.io.
 4. From your Connecto Profile page, generate API key and paste it in your
-5. You can also reach your profile page anytime from the right menu in the
-Connecto admin.
+5. You can also reach your profile page anytime from the right menu in the Connecto admin.
 
 == Changelog ==
 
