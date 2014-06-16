@@ -25,6 +25,10 @@ Main features include:
 * Email on submission
 * Submissions Dashboard with details like location, referal, source etc
 
+Take an online demo to get an idea of how the feedback tab, survey windows and
+notification messages will look on your website -
+[www.connecto.io/](http://www.connecto.io/)
+
 PS: You'll need register for a [Connecto API key](http://www.connecto.io/accounts/register)
 to use it.
 
