@@ -90,13 +90,17 @@ class Connecto {
     ?>
     <!-- Added via Connecto Wordpress Plugin 0.1.1 -->
     <script id="_connecto_script_tag" type="text/javascript">
-      var _TConnecto = _TConnecto || {'licenseKey': '<?php echo $connecto_license_code; ?>'};
-      (function() {
-        var con = document.createElement('script'); con.type = 'text/javascript';
-        con.src = 'http://server.connecto.io/javascripts/connect.prod.min.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(con, s);
-      })();
+
+    var _TConnecto = _TConnecto || {};
+    _TConnecto.licenseKey = '<?php echo $connecto_license_code; ?>';
+
+    (function() {
+      var con = document.createElement('script'); con.type = 'text/javascript';
+      var host = (document.location.protocol === 'http:') ? 'http://cdn' : 'https://server';
+      con.src = host + '.connecto.io/javascripts/connect.prod.min.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(con, s);
+    })();
     </script>
   <?php
     }
